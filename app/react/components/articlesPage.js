@@ -1,6 +1,5 @@
 import React from 'react';
-import "material-design-lite/material.min.css";
-import "./styles.scss";
+import Articles from './articles';
 
 class ArticlesPage extends React.Component {
 
@@ -9,20 +8,9 @@ class ArticlesPage extends React.Component {
         <div className="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
 
           <main className="mdl-layout__content">
-
+  
             <div className="demo-blog__posts mdl-grid">
-              <div className="mdl-card coffee-pic mdl-cell mdl-cell--8-col">
-                <div className="mdl-card__media mdl-color-text--grey-50">
-                  <h3><a href="entry.html">Coffee Pic</a></h3>
-                </div>
-                <div className="mdl-card__supporting-text meta mdl-color-text--grey-600">
-                  <div className="minilogo"></div>
-                  <div>
-                    <strong>The Newist</strong>
-                    <span>2 days kjahsdflh ago</span>
-                  </div>
-                </div>
-              </div>
+              <Articles />
               <div className="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
                 <button className="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">
                   <i className="material-icons mdl-color-text--white" role="presentation">add</i>
