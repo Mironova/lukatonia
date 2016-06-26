@@ -12,12 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require react_integration
 //= require react_bundle
 //= require_tree .
 
-$(document).ready(function () {
-
-  Materialize.updateTextFields();
-})
+// $(document).ready(function () {
+//
+//   Materialize.updateTextFields();
+// })
