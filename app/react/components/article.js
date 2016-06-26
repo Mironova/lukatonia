@@ -1,9 +1,11 @@
 import React from 'react';
 
 const Article = ({title, className, image, posted_at, categories, description}) => {
+  console.log
   const categories_list = (<span>Category: <a href="#">Latest</a></span>);
+  const styles = "mdl-grid mdl-cell mdl-card mdl-shadow--4dp " + className;
   return (
-    <div className="mdl-grid mdl-cell mdl-cell--12-col  mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+    <div className={styles}>
       <div class="mdl-card__title">
         <h2 class="mdl-card__title-text">{title}</h2>
       </div>

@@ -3,8 +3,8 @@ import Article from './article';
 
 const Articles = ({articles}) => {
   return (
-    <div className="articles">
-      {articles.map((article, index) => <Article article={article} key={index}/>)}
+    <div className="mdl-grid portfolio-max-width">
+      {articles.map((article, index) => <Article {...article} key={index}/>)}
     </div>
   )
 }

@@ -1,8 +1,9 @@
 import React from 'react';
 
-const Nav = (props) => {
+const Nav = ({styles}) => {
+
   return (
-    <div className="mdl-layout__drawer mdl-layout--small-screen-only">
+    <div className={styles}>
       <nav className="mdl-navigation mdl-typography--body-1-force-preferred-font">
         <a className="mdl-navigation__link is-active" href="index.html">Portfolio</a>
         <a className="mdl-navigation__link" href="blog.html">Blog</a>
