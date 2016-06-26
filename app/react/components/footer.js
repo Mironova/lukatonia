@@ -2,12 +2,12 @@ import React from 'react';
 
 const Footer = (props) => {
   return (
-    <footer class="mdl-mini-footer">
-      <div class="mdl-mini-footer__left-section">
-        <div class="mdl-logo">Simple portfolio website</div>
+    <footer className="mdl-mini-footer">
+      <div className="mdl-mini-footer__left-section">
+        <div className="mdl-logo">Simple portfolio website</div>
       </div>
-      <div class="mdl-mini-footer__right-section">
-        <ul class="mdl-mini-footer__link-list">
+      <div className="mdl-mini-footer__right-section">
+        <ul className="mdl-mini-footer__link-list">
           <li><a href="#">Help</a></li>
           <li><a href="#">Privacy & Terms</a></li>
         </ul>
